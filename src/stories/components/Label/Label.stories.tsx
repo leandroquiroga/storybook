@@ -1,4 +1,4 @@
-import { ComponentStory, Meta, StoryFn, StoryObj } from '@storybook/react';
+import { Meta, StoryFn } from '@storybook/react';
 import { Label, LabelProps } from './Label';
 
 /*
