@@ -31,9 +31,9 @@
     "@types/node": "^16.18.23",
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
-    "react": "^18.2.0",
+    "react": ">=16",
     "react-dom": "^18.2.0",
-    "typescript": "^4.7.4",
+    "typescript": ">=4.7.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -76,6 +76,15 @@
     "copyfiles": "^2.4.1",
     "prop-types": "^15.8.1",
     "rimraf": "^5.0.0",
+    "semantic-release": "^21.0.1",
     "storybook": "^7.0.2"
-  }
+  },
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/github",
+    "@semantic-release/npm",
+    "@semantic-release/git"
+  ]
 }
