@@ -30,10 +30,10 @@ jobs:
           node-version: 18.0
 
       - name: Install Dependencies
-          run: npm install
+        run: npm install
 
       - name: Build App
-          run: npm build
+        run: npm build
 
       - name: Semantic Release
         env:
