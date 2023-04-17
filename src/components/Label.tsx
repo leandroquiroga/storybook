@@ -7,3 +7,5 @@ export const Label = () => {
     </span>
   )
 }
+
+export default Label;
